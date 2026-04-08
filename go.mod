@@ -1,8 +1,6 @@
 module github.com/trufflesecurity/trufflehog/v3
 
-go 1.23.1
-
-toolchain go1.23.3
+go 1.25.0
 
 replace github.com/jpillora/overseer => github.com/trufflesecurity/overseer v1.2.8
 
@@ -47,14 +45,14 @@ require (
 	github.com/go-errors/errors v1.5.1
 	github.com/go-git/go-git/v5 v5.12.0
 	github.com/go-ldap/ldap/v3 v3.4.8
-	github.com/go-logr/logr v1.4.2
+	github.com/go-logr/logr v1.4.3
 	github.com/go-logr/zapr v1.3.0
 	github.com/go-redis/redis v6.15.9+incompatible
 	github.com/go-sql-driver/mysql v1.8.1
 	github.com/gobwas/glob v0.2.3
 	github.com/golang-jwt/jwt v3.2.2+incompatible
 	github.com/golang-jwt/jwt/v5 v5.2.1
-	github.com/google/go-cmp v0.6.0
+	github.com/google/go-cmp v0.7.0
 	github.com/google/go-containerregistry v0.20.2
 	github.com/google/go-github/v66 v66.0.0
 	github.com/google/uuid v1.6.0
@@ -88,7 +86,7 @@ require (
 	github.com/sergi/go-diff v1.3.2-0.20230802210424-5b0b94c5c0d3
 	github.com/shuheiktgw/go-travis v0.3.1
 	github.com/snowflakedb/gosnowflake v1.12.0
-	github.com/stretchr/testify v1.10.0
+	github.com/stretchr/testify v1.11.1
 	github.com/tailscale/depaware v0.0.0-20241028160002-3d7f3b30ed0e
 	github.com/testcontainers/testcontainers-go v0.34.0
 	github.com/testcontainers/testcontainers-go/modules/elasticsearch v0.34.0
@@ -299,18 +297,19 @@ require (
 	github.com/zeebo/xxh3 v1.0.2 // indirect
 	go.einride.tech/aip v0.60.0 // indirect
 	go.opencensus.io v0.24.0 // indirect
+	go.opentelemetry.io/auto/sdk v1.2.1 // indirect
 	go.opentelemetry.io/contrib/detectors/gcp v1.29.0 // indirect
 	go.opentelemetry.io/contrib/instrumentation/google.golang.org/grpc/otelgrpc v0.54.0 // indirect
 	go.opentelemetry.io/contrib/instrumentation/net/http/otelhttp v0.54.0 // indirect
-	go.opentelemetry.io/otel v1.29.0 // indirect
-	go.opentelemetry.io/otel/metric v1.29.0 // indirect
-	go.opentelemetry.io/otel/sdk v1.29.0 // indirect
-	go.opentelemetry.io/otel/sdk/metric v1.29.0 // indirect
-	go.opentelemetry.io/otel/trace v1.29.0 // indirect
+	go.opentelemetry.io/otel v1.43.0 // indirect
+	go.opentelemetry.io/otel/metric v1.43.0 // indirect
+	go.opentelemetry.io/otel/sdk v1.43.0 // indirect
+	go.opentelemetry.io/otel/sdk/metric v1.43.0 // indirect
+	go.opentelemetry.io/otel/trace v1.43.0 // indirect
 	go.uber.org/multierr v1.11.0 // indirect
 	go4.org v0.0.0-20230225012048-214862532bf5 // indirect
 	golang.org/x/mod v0.22.0 // indirect
-	golang.org/x/sys v0.27.0 // indirect
+	golang.org/x/sys v0.42.0 // indirect
 	golang.org/x/term v0.26.0 // indirect
 	golang.org/x/time v0.8.0 // indirect
 	golang.org/x/tools v0.27.0 // indirect
